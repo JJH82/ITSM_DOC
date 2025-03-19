@@ -1,3 +1,4 @@
-[[1.Open User Settings 설정]]
-[[2.Open Keyboard Shortcuts 설정]]
+[[1. 필수 설치 Extensions]]
+[[2. Open User Settings 설정]]
+[[4.Open Keyboard Shortcuts 설정]]
 [[3. Configure Snippets 설정]]
