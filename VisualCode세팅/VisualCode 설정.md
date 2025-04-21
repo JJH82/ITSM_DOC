@@ -1,5 +1,5 @@
 [[1. 필수 설치 Extensions]]
 [[2. Open User Settings 설정]]
-[[4.Open Keyboard Shortcuts 설정]]
+[[4. Open Keyboard Shortcuts 설정]]
 [[3. Configure Snippets 설정]]
-[[5. 피닉스 실행 시 유의 사항]]
+[[5. 피닉스 기동]]
