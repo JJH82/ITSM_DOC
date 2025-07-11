@@ -3,3 +3,4 @@
 [[4. Open Keyboard Shortcuts 설정]]
 [[3. Configure Snippets 설정]]
 [[5. 피닉스 기동 TERMINAL 실행]]
+[[6. 도움말 TERMINAL 실행]]
