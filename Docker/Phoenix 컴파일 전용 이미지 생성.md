@@ -55,13 +55,16 @@ CMD ["sleep", "infinity"]
 docker build . -t erlang:27.3.4_1-ubi8
 ```
 
-
 ### 3. 생성된 이미지에 설치된 내용 확인 하기
+1) 컨테이너 종료 되면 삭제 되는 실행
 ```
-# erlang:27.3.4.1 이미지가 Container로 생성되지 않으면 실행가능 (최초실행)
-docker run -it erlang:27.3.4_1 /bin/bash
+# erlang:27.3.4.1 이미지 최초 실행이고 실행이 종료되면 container 도 삭제 됨
+docker run -it --rm erlang:27.3.4_1-ubi8 /bin/bash
+```
 
-docker container run -d kb-erlang:27.3.4_1
+2) 컨테이너를 삭제 하지 않고 실행
+```
+docker container run -d erlang:27.3.4_1-ubi8
 172f301cf556e9e92e224139fadc107307821cab6cd9767b5877a2c6e5447762
 
 # 컨테이너의 shell에 접근
@@ -73,5 +76,3 @@ docker container exec -it 172 /bin/bash
 # save -o 파일명 명:태그
 docker save -o erlang-27.3.4_1-ubi8.tar erlang:27.3.4_1-ubi8
 ```
-
-
